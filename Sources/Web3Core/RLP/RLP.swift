@@ -298,7 +298,7 @@ public struct RLP {
 
 extension Data {
 
-    var bytes: [UInt8] {
+    public var bytes: [UInt8] {
         return Array(self)
     }
 }
