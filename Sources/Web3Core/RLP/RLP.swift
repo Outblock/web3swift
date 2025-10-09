@@ -296,9 +296,9 @@ public struct RLP {
     }
 }
 
-extension Data {
+fileprivate extension Data {
 
-    public var bytes: [UInt8] {
+    var bytes: [UInt8] {
         return Array(self)
     }
 }
